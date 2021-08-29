@@ -1,0 +1,551 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+   
+}
+.page1
+{
+    background-image: url("Images/background.jpg");
+    background-size: contains;
+    width:100vw;
+    
+    
+    
+}
+.strip1
+{
+    text-align: center;
+    width:100vw;
+    height:31px;
+    background-color: turquoise;
+    
+}
+.strip1 p
+{
+    font-size: 23px;
+}
+.navbar
+{
+    position: sticky;
+    width:100vw;
+    height: 100px;
+    display:flex;
+    /* background: rgb(51, 48, 48); */
+    
+    flex:auto;
+    
+}
+
+.img1 
+{
+    align-items: center;
+}
+
+#logo_left img
+{
+    margin-top: 2vh;;
+    width: 21vw;
+height: 19vh;
+}
+
+#list-items a
+{
+    text-rendering: optimizeLegibility;
+    text-align-last: auto;
+    font-size:20px;
+    color:white;
+    text-decoration: none;
+    list-style: none;
+}
+#list-items a:hover
+{
+    color:chocolate;
+}
+.navbar-items
+{
+    display: flex;
+    font-size:72px;
+    margin-top: 10vh;
+line-height: 0px;
+letter-spacing: 0.017em;
+font-weight: 300;
+margin-left: auto;
+justify-content:flex-start;
+}
+@media ( max-width:717px)
+{
+    #logo_left img
+    {
+        width:19vw;
+        height:17vh;
+    }
+}
+
+
+
+.content1
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img1
+{
+    align-items: center;
+    text-align: center;
+    width:100%;
+    
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 510px;
+    opacity: 9;
+    
+    
+}
+
+ /* .img2
+{
+ width:100%;   
+    background-image: url("https://pilbox.themuse.com/image.jpg?filter=antialias&h=600&opt=1&pos=0.70,1.0&prog=1&q=keep&w=600&url=https%3A%2F%2Fassets.themuse.com%2Fmedia%2Flead%2Fhome-hero-image-right.jpg");
+    background-position: 50%;
+background-repeat: no-repeat;
+background-size: cover;
+height: 510px;
+opacity:0.8;
+} */
+
+.img1 p
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color:rgb(27, 53, 68);
+
+}
+#para
+{
+    margin-top: 115px;
+}
+@media (max-width:548px)
+{
+    .strip1 p
+    {
+        font-size:19px;
+    }
+}
+@media (max-width:452px)
+{
+    .strip1 p
+    {
+        font-size:14px;
+    }
+}
+.search #in1
+{
+    border-color:cornflowerblue;
+    
+    margin-top: 80px;
+    width:60vw;
+    height: 40px;
+    
+}
+.search #butt1
+{
+    width:10vw;
+    height:42px;
+    border-radius: 10px;
+    background: white;
+   
+}
+.search #butt1:hover
+{
+    border-color: gold;
+}
+
+/* Page 2 */
+.heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90vw;
+    height:100px;
+    background-color: whitesmoke;
+}
+.heading p
+{
+    font-size: 30px;
+line-height: 1;
+letter-spacing: 0.017em;
+font-weight: 600;
+}
+.planks
+{
+    display:flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    width: 90vw;
+height: 1000px;
+/* background-color: whitesmoke; */
+}
+.plank1
+{
+    height:300px;
+    width: 90vw;
+    background-color: rgb(231, 238, 246);
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    opacity:0.9
+    
+   
+}
+.plank2
+{
+    height:300px;
+    width:90vw;
+    background-color: rgb(231, 238, 246);
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    opacity: 0.9;
+   
+}
+.plank3
+{
+    height:300px;
+    width:90vw;
+    background-color: rgb(231, 238, 246);
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+   display:flex;
+   opacity: 0.9;
+}
+.page2
+{
+    background-color: whitesmoke;
+}
+.p1
+{
+    padding-left: 14%;
+padding-top: 5%;
+}
+.p1 p1
+{
+    display:flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+.p1 p2
+{
+    font-size:20px;
+}
+.p1 p3
+{
+    font-size:20px;
+}
+.circle1 img
+{
+    border-radius: 400px;
+    margin-left: 15%;
+    
+}
+.s
+{
+    font-size: 20px;
+padding-top: 2%;
+}
+.plank1 .p1
+{
+    
+}
+.plank2
+{
+    display: flex;
+}
+.circle2
+{
+    float:right;
+    margin: left 47%;
+}
+#muz
+{
+    margin-left:40%;
+}
+.circle2 img
+{
+    border-radius: 400px;
+    margin: left 47%;
+}
+#p2 #heading
+{
+    font-size: 40px;
+}
+#p2 #para
+{
+    margin-top:3%;
+    font-size:20px;
+    padding-top:0px;
+}
+#p2 #para1
+{
+    font-size: 20px;
+}
+#p2
+{
+    margin-left: 14%;
+    margin-top: 7%;
+}
+
+#p3
+{
+    
+    margin-left:19%;
+    margin-top:6%;
+}
+.circle3 img
+{
+    border-radius: 400px;
+    margin-left:25%;
+}
+#p3 #heading
+{
+    font-size:40px;
+}
+#p3 .para
+{
+    font-size:20px;
+}
+
+.page3 .para
+{
+    width:100vw;
+    height:210px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.page3 .para 
+{
+    font-size: 25px;
+}
+.par
+{
+    display:flex;
+    justify-content:space-between;
+text-align:center;
+}
+.logos
+{
+    display: flex;
+    width:100vw;
+    height:100px;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+.log1 img
+{
+    width:15vw;
+    height:5vh;
+    margin: right 5px;
+}
+.button .butt
+{
+    width: 100vw;
+    height: 130px;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butt button
+{
+    width:20vw;
+    height:7vh;
+    border-radius: 4px;
+    background-color: rgb(42, 42, 240);
+    color:white;
+    cursor: pointer;
+    
+}
+.button .para
+{
+    width: 100vw;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    
+    background-color: whitesmoke;
+    font-size: 17px;
+}
+.para1 .pur1
+{
+    width:100vw;
+    height:60px;
+    font-size:  55px;
+    text-align: center;
+    margin-top:5%;
+    font-family: 'Teko', sans-serif
+
+
+}
+.para1 .pur2
+{
+    width:100vw;
+    height:7-px;
+    font-size:20px;
+    text-align: center;
+    margin-top:1%;
+}
+
+.page5
+{
+    margin-top:10vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.page5 p
+{
+    text-align: center;
+    font-size: 30px;
+    /* font-family: 'Roboto', sans-serif; */
+    margin-top:5%;
+}
+.card1
+{
+    width:345px;
+    height: 350px;
+    cursor: pointer;
+    box-shadow: 0px 3px skyblue;
+   
+}
+.card2
+{
+    width:345px;
+    height: 350px;
+    cursor: pointer;
+    box-shadow: 0px 3px skyblue;
+   
+}
+.card3
+{
+    width:345px;
+    height: 350px;
+    cursor: pointer;
+    box-shadow: 0px 3px skyblue;
+    
+}
+.buttonnew
+{
+    display:flex;
+    justify-content: center;
+    margin-top:12vh;
+}
+.buttonnew button
+{
+    width:19vw;
+    height:7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+    
+}
+.void 
+{
+    width:100vw;
+    height:10vh;
+}
+.career
+{
+    width: 100vw;
+    height:40vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.career .para p
+{
+    margin-bottom: 5vh;
+    font-size:35px;
+    font-family: 'Oswald', sans-serif;    
+}
+.career .para2 p
+{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.career .para3 p
+{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.buttonpro
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 100vw;
+    height:10vh;
+    
+}
+.buttonpro button
+{
+    width:20vw;
+    height: 7vh;
+}
+.gallery
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+    background-color: whitesmoke;
+    /* padding-top: 20vh;; */
+    padding-top: 5vh;
+    width: 100vw;
+    height:45vh;
+}
+.person1
+{
+    width:20vw;
+    height:30vh;
+    background-color: rebeccapurple;
+}
+.person2
+{
+    width:20vw;
+    height:30vh;
+    background-color: blueviolet;
+}
+.person3
+{
+    width:20vw;
+    height:30vh;
+    background-color: red;
+}
+.person4
+{
+    width:20vw;
+    height:30vh;
+    background-color: yellow;
+}
